@@ -52,6 +52,7 @@ public struct AnimationKey {
   }
 }
 
+@available(iOS 11.0, *)
 extension CACornerMask {
   public static let allCorners: CACornerMask = [
     .layerMinXMinYCorner, .layerMaxXMinYCorner, .layerMinXMaxYCorner, .layerMaxXMaxYCorner,

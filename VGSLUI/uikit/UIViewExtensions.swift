@@ -242,6 +242,7 @@ extension UIView {
   }
 }
 
+@available(iOS 11.0, *)
 extension CACornerMask {
   public init(corners: UIRectCorner) {
     self.init()
